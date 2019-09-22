@@ -1,6 +1,6 @@
 # Testing the number 20 for the Collatz operation
 
-n = 20
+n = int(input("Please enter a number: "))
 
 # Keeps looping until we reach 1. This assumes that the Collatz conjecture is true.
 while n !=1:
